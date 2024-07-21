@@ -1,0 +1,187 @@
+* {
+    font-family: monospace;
+}
+
+body {
+    background: #dfd8cee8 url(images/paymentback.png)no-repeat fixed center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.boxA {
+    position: absolute;
+    top: 100px;
+    left: 255px;
+    background: #d6832a;
+    color: white;
+    width: 60%;
+    height: 60%;
+    padding: 20px;
+    margin: auto;
+    border-radius: 70px;
+}
+
+/*login form*/
+.left {
+    width: 50%;
+    height: 100px;
+    float: left;
+    background: #d6832a;
+    text-align: center;
+}
+
+
+.container {
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    padding: 0 15px 0 15px;
+}
+
+span {
+    color: white;
+    font-size: small;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0 10px 0;
+}
+
+.input-field {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.input-fieldlog {
+    height: 45px;
+    width: 50%;
+    margin-right: 50px;
+    margin-left: 60px;
+}
+
+.input {
+    height: 45px;
+    width: 75%;
+    border: none;
+    outline: none;
+    border-radius: 30px;
+    color: white;
+    padding: 0 0 0 42px;
+    background: rgba(255, 255, 255, 0.1);
+}
+
+i {
+    position: relative;
+    top: -31px;
+    right: 150px;
+    color: white;
+}
+
+::-webkit-input-placeholder {
+    color: #fff;
+}
+
+.submit {
+    border: none;
+    border-radius: 30px;
+    font-size: 15px;
+    height: 45px;
+    outline: none;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.7);
+    cursor: pointer;
+    transition: .3s;
+}
+
+.submit:active {
+    background-color: #1de2ec;
+    transform: translateY(4px);
+}
+
+.bottom {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 15px;
+    color: #fff;
+    margin-top: 10px;
+}
+
+.bottom :hover {
+    color: black;
+}
+
+.pass a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.fsize {
+    font-size: 22px;
+}
+
+.pass {
+    margin-right: 50px;
+    margin-left: 60px;
+}
+
+.button {
+    background-color: #d6832a;
+    border: none;
+    color: white;
+    font-size: 16px;
+}
+
+.backhome a {
+    font-size: 15px;
+    color: white;
+    text-decoration: none;
+    margin-left: -180px;
+
+}
+
+.backhome :hover {
+    color: black;
+}
+
+/*logo side*/
+.right {
+    margin-left: 50%;
+    height: 100px;
+    background: #d6832a;
+}
+
+.imgcontainer {
+    text-align: center;
+    margin: 5px 0 12px 0;
+}
+
+img.logo {
+    width: 50%;
+}
+
+.createacc button {
+    color: white;
+    background-color: #d6832a;
+    border: none;
+    font-size: 19px;
+}
+
+.createacc :hover {
+    color: black;
+}
+
+.media {
+    padding: 10px;
+
+}
+
+.media img {
+    width: 40px;
+    height: auto;
+    padding-right: 50px;
+    padding-left: 50px;
+
+}

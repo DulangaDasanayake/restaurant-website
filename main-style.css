@@ -1,0 +1,195 @@
+/* for all page */
+* {
+  margin: 0px;
+  /*side margin*/
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  box-sizing: border-box;
+}
+
+/* navigation bar */
+nav {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ffe7c5;
+  padding: 10px 70px;
+}
+
+/* logo name */
+.logo h1 {
+  color: #0C0E0E;
+  font-size: 30px;
+  font-weight: 100;
+  padding: 10px;
+  font-family: monospace;
+}
+
+/* navigation bar */
+nav ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+nav ul li {
+  list-style: none;
+  margin: 20px;
+}
+
+.active {
+  background-color: #15B5BE;
+  color: #fff;
+}
+
+/* navigation list colour */
+nav ul li a {
+  color: #0C0E0E;
+  font-size: 23px;
+  font-weight: 600;
+  font-family: monospace;
+  padding: 3px 13px;
+  border-radius: 20px;
+  text-decoration: none;
+  transition: 0.2s;
+}
+
+nav ul li a:hover {
+  background-color: #fe8300;
+  border-radius: 20px;
+  color: #fff;
+}
+
+/* login nutton */
+.login-btn {
+  font-size: 28px;
+  color: #fff;
+  font-weight: 900;
+  border-radius: 40px;
+  padding: 10px 15px;
+  background-color: #fe8300;
+  border: 1px solid #fe8300;
+}
+
+.login-btn:hover {
+  color: #fe8300;
+  border-radius: 40px;
+  background-color: transparent;
+}
+
+/* footer */
+footer {
+  background-color: #ccd5ae;
+  width: 100%;
+}
+
+.col-1-flex {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 40px;
+}
+
+.col-1 {
+  padding-top: 20px;
+}
+
+.col-1 h1 {
+  font-size: 30px;
+  font-weight: 600;
+  color: #272727;
+}
+
+.col-1 p {
+  font-size: 19px;
+  font-weight: 500;
+  color: #272727;
+  padding-top: 10px;
+}
+
+.tel {
+  text-decoration: none;
+  font-size: 19px;
+  font-weight: 600;
+  color: #272727;
+}
+
+.tel:hover {
+  text-decoration: underline;
+}
+
+.direction {
+  padding: 5px 10px;
+  text-decoration: none;
+  background-color: #fe8300;
+  color: #fff;
+}
+
+.direction:hover {
+  text-decoration: none;
+}
+
+/* social media */
+.media {
+  padding: 30px;
+}
+
+.media img {
+  width: 70px;
+  height: auto;
+  padding-right: 10px;
+}
+
+.media a {
+  color: #272727;
+  text-decoration: none;
+}
+
+.media ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+}
+
+.media ul li {
+  padding: 0px 5px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+
+@media (min-width: 576px) {
+  .logo h1 {
+    font-size:20px ;
+    font-weight: 900;
+}
+}
+
+@media (min-width: 768px) {
+  .logo h1 {
+    font-size:25px ;
+    font-weight: 600;
+}
+}
+
+@media (min-width: 992px) {
+  .logo h1 {
+    font-size:30px ;
+    font-weight: 100;
+}
+}
+@media (min-width: 1200px) {
+  .logo h1 {
+    font-size:30px ;
+    font-weight: 100;
+}
+}
+
+@media (min-width: 1400px) {
+  .logo h1 {
+    font-size:30px ;
+    font-weight: 100;
+}
+}

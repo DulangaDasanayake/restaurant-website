@@ -1,0 +1,364 @@
+/* Home page css */
+
+.navi {
+    width: 100%;
+    height: auto;
+    background: #fff2e1;
+}
+
+/* all text placement */
+.navi-text {
+    width: 100%;
+    min-height: 80vh;
+}
+
+/* 3 word placement and others */
+.navi-text h1 {
+    position: absolute;
+    top: 35%;
+    left: 10%;
+    font-size: 100px;
+    font-weight: 500;
+    color: #000000;
+    text-shadow: 7px 7px 20px #ffffff;
+    padding-right: 500px;
+}
+
+
+/* logo */
+.navi-text img {
+    position: absolute;
+    top: 15%;
+    left: 70%;
+    width: 350px;
+    height: auto;
+
+}
+
+
+/*all heding*/
+#heding {
+    padding: 30px;
+    font-size: 50px;
+    font-weight: 600;
+    text-align: center;
+}
+
+
+/* about */
+.about {
+    background: #f2f2f288 url(images/white-paper-texture.jpg) no-repeat center fixed;
+    background-size: cover;
+    background-blend-mode: soft-light;
+    min-height: 60vh;
+    position: relative;
+}
+
+.about-text {
+    color: #0C0E0E;
+    padding: 50px 300px;
+    width: 100%;
+}
+
+.about-text p {
+    font-size: 22px;
+    font-weight: 600;
+    padding: 10px 40px;
+}
+
+
+/* favorite */
+.favorite {
+    padding: 50px;
+    background: #ffe7c596 url(images/favorite-background.png)no-repeat fixed center;
+    background-size: cover;
+    background-blend-mode: soft-light;
+}
+
+.favorite h1 {
+    color: #0C0E0E;
+    text-shadow: 2px 2px 5px #ffffff;
+}
+
+.favorite-item-position {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 60px;
+}
+
+.favorite-items {
+    width: 330px;
+    height: 400px;
+    margin: 10px 30px;
+    border-radius: 15px;
+    background-color: #ffffffeb;
+    box-shadow: 5px 5px 10px #959595;
+}
+
+.favorite-items img {
+    width: 330px;
+    height: auto;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+}
+
+.favorite-items p {
+    font-size: 20px;
+    font-weight: 600;
+    color: #000000;
+    padding: 10px;
+    text-align: center;
+    font-family: monospace;
+}
+
+/* favorite item for min window */
+.favorite-second {
+    display: none;
+}
+
+
+/* delivery */
+.delivery {
+    align-items: center;
+    padding: 100px 50px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #ffe7c5;
+}
+
+.deliver-img img {
+    width: 700px;
+    height: auto;
+}
+
+.deliver-para h1 {
+    text-align: center;
+    color: #121111;
+}
+
+.deliver-para p {
+    font-size: 22px;
+    font-weight: 600;
+    color: #121111;
+    padding: 30px;
+}
+
+
+/* buttons */
+.button1 {
+    text-align: center;
+}
+
+.button1 a {
+    text-decoration: none;
+    font-size: 28px;
+    color: #ffffff;
+    border-radius: 20px;
+    font-weight: 500;
+    padding: 5px 20px;
+    background-color: #fe8300;
+    border: 1px solid #fe8300;
+    transition: 0.5s;
+}
+
+.button1 a:hover {
+    color: #fe8300;
+    background-color: transparent;
+}
+
+
+/* menu page css */
+.welcome {
+    background: #fff2e0b9 url(images/back.jpg) no-repeat center fixed;
+    background-size: cover;
+    background-blend-mode: soft-light;
+    min-height: 80vh;
+}
+
+/* wel-text */
+.wel-text h1 {
+    position: absolute;
+    top: 30%;
+    left: 15%;
+    font-size: 180px;
+    font-weight: 500;
+    color: #0c0e0e;
+    text-shadow: 7px 7px 2px #00000083;
+}
+
+.wel-text img {
+
+    height: auto;
+    position: absolute;
+    top: 15%;
+    left: 70%;
+    width: 400px;
+}
+
+/* online order  */
+.order {
+    background: #ffe7c576 url(images/scoobycall.png) no-repeat center fixed;
+    background-size: cover;
+    background-blend-mode: soft-light;
+    min-height: 80vh;
+}
+
+
+/* contact */
+.contact-us {
+    background: #ffe7c576;
+    background-size: cover;
+    background-blend-mode: soft-light;
+    min-height: 80vh;
+}
+
+@media (min-width: 576px) {
+
+    .navi-text h1 {
+        font-size: 60px;
+        text-shadow: 7px 7px 2px #00000083;
+
+        top: 50%;
+        left: 20%;
+        padding: 10px;
+    }
+
+    .navi-text img {
+        left: 40%;
+        width: 200px;
+    }
+
+    /* about */
+    .about-text {
+        padding: 50px 30px;
+    }
+
+    .deliver-img img {
+        display: none;
+    }
+
+    /* favorite */
+    .favorite-item-position {
+        display: none;
+    }
+
+    .favorite-second {
+        display: block;
+        justify-content: center;
+        align-items: center;
+        padding: 50px 0px 50px 100px;
+    }
+
+    .favorite-second-items {
+        width: 300px;
+        height: 380px;
+        margin: 10px 30px;
+        border-radius: 15px;
+        background-color: #ffffffeb;
+        box-shadow: 5px 5px 10px #959595;
+    }
+
+    .favorite-second-items img {
+        width: 300px;
+        height: auto;
+        border-top-right-radius: 15px;
+        border-top-left-radius: 15px;
+    }
+
+    .favorite-second-items p {
+        font-size: 20px;
+        font-weight: 600;
+        color: #000000;
+        padding: 10px;
+        text-align: center;
+        font-family: monospace;
+    }
+}
+
+@media (min-width: 768px) {
+    .navi-text h1 {
+        font-size: 70px;
+        text-shadow: 7px 7px 2px #00000083;
+
+        top: 52%;
+        left: 13%;
+        padding-left: 90px;
+    }
+
+    .navi-text img {
+        top: 20%;
+        left: 40%;
+        width: 220px;
+    }
+
+    /* about */
+    .about-text {
+        padding: 50px 80px;
+    }
+
+    .deliver-img img {
+        display: none;
+    }
+
+
+}
+
+@media (min-width: 992px) {
+    .navi-text h1 {
+        font-size: 65px;
+        text-shadow: 7px 7px 2px #00000083;
+        top: 30%;
+        left: 3%;
+    }
+
+    .navi-text img {
+        top: 25%;
+        left: 70%;
+        width: 250px;
+    }
+
+    /* favorite */
+    .favorite-item-position {
+        display: flex;
+    }
+
+    .favorite-second {
+        display: none;
+    }
+}
+
+@media (min-width: 1200px) {
+    .navi-text h1 {
+        font-size: 90px;
+        text-shadow: 7px 7px 2px #00000083;
+        top: 30%;
+        left: 0%;
+    }
+
+    .navi-text img {
+        top: 15%;
+        left: 70%;
+        width: 350px;
+    }
+
+    .deliver-img img {
+        display: block;
+    }
+}
+
+@media (min-width: 1400px) {
+    .navi-text h1 {
+        font-size: 120px;
+        text-shadow: 7px 7px 2px #00000083;
+        top: 30%;
+        left: 7%;
+    }
+
+    .navi-text img {
+        top: 15%;
+        left: 70%;
+        width: 400px;
+    }
+
+}

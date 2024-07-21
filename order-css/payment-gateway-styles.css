@@ -1,0 +1,144 @@
+*{
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background:#dfd8cee8 url("../Images/paymentback.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #d6832a;
+    position: absolute;
+    top: 80px;
+    left: 255px;
+    color: white;
+    width: 60%;
+    height: 72%;
+    padding: 20px;
+    margin: auto;
+    border-radius: 70px;
+}
+.container{
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    padding: 0 15px 0 15px;
+}
+span{
+    color: #fff;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0 10px 0;
+}
+i{
+    position: relative;
+    top: -31px;
+    left: 17px;
+    color: #fff;
+}
+header{
+    color:#fff;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0 10px 0;
+}
+
+.input-field{
+    display: flex;
+    flex-direction: column;
+}
+.input{
+    left: 30px;
+    height: 45px;
+    width: 87%;
+    border: none;
+    outline: none;
+    border-radius: 30px;
+    color: #ffffff;
+    padding: 0 0 0 42px;
+    background: rgba(8, 6, 6, 0.459);
+}
+::-webkit-input-placeholder {
+    color: #fff;
+}
+.submit{
+    border: none;
+    border-radius: 30px;
+    font-size: 20px;
+    height: 45px;
+    outline: none;
+    width: 100%;
+    background: rgba(17, 197, 71, 0.7);
+    color: white;
+    cursor: pointer;
+    transition: .3s;
+}
+.submit.hover{
+    box-shadow: 1px 5px 7 1px rgba(0,0,0,0.2);
+}
+.bottom{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: small;
+    color: #fff;
+    margin-top: 10px;
+}
+label a{
+    color: #fff;
+    text-decoration: none;
+}
+.popup{
+    width: 400px;
+    background: #fff;
+    border-radius: 6px;
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    padding:  0 30px 30px;
+    color: #333;
+    visibility: hidden;
+    transition: transform 0.5s, top 0.5s;
+    z-index: 7;
+}
+
+.open-popup{
+    visibility: visible;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.popup > img{
+    width: 180px;
+    margin-top: -85px;
+    border-radius: -50px;
+}
+
+.popup > h2{
+    font-size: 38px;
+    font-weight: 500;
+    margin: 30px 0 10px; 
+}
+
+.popup > button{
+    width: 100%;
+    margin-top: 50px;
+    padding: 10px 0;
+    background: #59ad00;
+    color: #fff;
+    border: 0;
+    outline: none;
+    font-size: 18px;
+    border-radius: 4px;
+    cursor: pointer;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+}

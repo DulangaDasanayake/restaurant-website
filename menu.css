@@ -1,0 +1,49 @@
+
+/* menu styles */
+.menu{
+    background-color: #ffe7c5;
+    padding: 100px;
+}
+.menu-catogory{
+    margin: 30px;
+    padding: 0px 200px;
+    border-bottom: 2px solid #000;
+}
+.menu-catogory h2{
+    font-weight:500 ;
+    font-size: 35px;
+    padding: 15px;
+    text-align: center;
+    padding: 15px;
+}
+.symbol{
+    padding-top: 30px;
+}
+.symbol img{
+    width: 200px;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.special{
+    text-align: left;
+    padding: 20px 0px;
+    font-size: 19px;
+    color: #000;
+}
+th{
+    width: 1000px;
+    font-size: 25px;
+}
+td{
+    font-family:Verdana;
+    padding-bottom: 10px;
+    font-family:Verdana;
+    font-size: 25px;
+    font-weight:500;
+    padding: 5px 10px;
+}
+td p{
+    font-size: 17px;
+}

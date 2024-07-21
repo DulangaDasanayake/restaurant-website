@@ -1,0 +1,157 @@
+body {
+  background: #fcedd7c0 url(images/back.jpg)no-repeat fixed center;
+  background-size: cover;
+  min-height: 80vh;
+  background-blend-mode: soft-light;
+}
+
+.flex-msgbox-feedback {
+  padding: 150px 200px 0px 200px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.ourmsg {
+  background-color: #ffffff6d;
+  padding: 60px;
+  margin: 5px;
+  font: weight 15px;
+  width: 600px;
+  height: 540px;
+  box-shadow: 2px 2px 10px rgb(0, 0, 0);
+  border-radius: 30px;
+}
+
+.msgbox{
+  padding: 70px 10px;
+}
+
+.msgbox p {
+  padding: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  text-shadow: 1px 1px 30px rgb(255, 255, 255);
+  color: #000000;
+}
+
+.form {
+  width: 500px;
+    background-color:#d6832a;
+  border-radius: 35px;
+  box-shadow: 1px 1px 10px rgb(151, 151, 151);
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  color: #ffffff;
+}
+
+form {
+  margin-top: 30px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+  text-align: right;
+}
+
+.form-group label {
+  color: #ffffff;
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+  background-image: url('scoobylogo.png');
+
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  height: 45px;
+  outline: none;
+  border: none;
+  border-radius: 30px;
+  font-size: 15px;
+  color: #ffffff;
+  padding: 0 0 0 42px;
+    background: rgba(255,255,255,0.1);
+}
+
+::-webkit-input-placeholder {
+  color: #fff;
+}
+
+.form-group textarea {
+  height: 220px;
+  padding: 10px 40px;
+}
+
+.form-group button {
+  padding: 10px 20px;
+  background-color: #fff;
+  color: #000000;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 600;
+  text-align: right;
+}
+
+/*Display Feedback*/
+.feedback-area {
+  margin: 5px;
+  width: 100%;
+  overflow-x: auto;
+  white-space: nowrap;
+  align-items: center;
+  padding: 100px 20px;
+}
+
+.confirmation h2,p{
+  color: #fff;
+}
+
+.flex-box {
+  display: inline-flex;
+  width: 360px;
+  height: 220px;
+  margin-right: 20px;
+  background-color: #ccd5ae;
+  box-shadow: 1px 1px 10px #000;
+  border-radius: 8px;
+  padding: 10px;
+
+}
+
+.avatar {
+  display: flex;
+  justify-content: center;
+}
+
+.avatar img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}
+
+.feedback-content,.feedback-content p {
+  flex-grow: 1;
+  color: #000;
+  font-size: 19px;
+}
+
+h4 {
+  margin-top: 10px;
+}
+
+.flex-box p {
+  align-content: flex-start;
+  align-items: flex-start;
+}
+
+.avatar {
+  top: 1px;
+  left: 10px;
+}
