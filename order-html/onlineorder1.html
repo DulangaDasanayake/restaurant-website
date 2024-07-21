@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="../main-style.css" />
+    <link rel="stylesheet" href="../pages-styles.css">
+    <link rel="stylesheet" href="../order.css">
+    <title>Order Online</title>
+</head>
+
+<body>
+    <nav>
+        <div class="logo">
+            <h1>Scooby's Cafe & Restaurant</h1>
+        </div>
+        <div class="navi-menu">
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="../menu.html">Menu</a></li>
+                <li><a class="active" href="../order.html">Online Ordering</a></li>
+                <li><a href="../contact.html">Feedback</a></li>
+                <li><a class="login-btn" href="../login.html">Login</a></li>
+            </ul>
+        </div>
+    </nav>
+    <!--header-->
+    <!-- <h3 class="logo">Scooby's Cafe & Restaurent | Order Foods | <a href="./onlineorder.html">Home</a></h3> -->
+    <!--<input type="checkbox" id="cart">-->
+    <label for="cart" class="label-cart"><img src="../Images/shopping-cart-2-fill.svg"></label>
+
+    <!--main-dashboard-->
+
+    <div class="dashboard">
+        <div class="dashboard-banner">
+            <img src="../Images/14.jpg">
+            <div class="banner-promo">
+                <h1><span>50% OFF</span>
+                    Tasty Food<br> On Your Hand</h1><br>Only In this Week !!
+            </div>
+        </div>
+
+        <h3 class="dashboard-title"><i>Recommended Food For You</i></h3><br>
+        <div class="dashboard-menu">
+            <a class="active" href="./onlineorder1.html">Favourites</a>
+            <a href="./onlineorder2.html">Best Selling</a>
+            <a href="./onlineorder3.html">Instant</a>
+            <a href="./onlineorder4.html">Promotion</a>
+            <a href="./onlineorder5.html">Top Rated</a>
+            <a href="../order.html">All</a>
+        </div><br>
+
+        <div class="dashboard-content">
+            <div class="dashboard-card">
+                <img class="card-image" src="../Images/3.jpg">
+                <div class="card-details">
+                    <h4>Special Rice'n Curry<span>Rs:850.00</span></h4>
+                    <p>Delecious Rice & Curry with soy souce, vegitarian and meet, shredded cheese.</p>
+                    <p class="card-time"><img src="../Images/time-fill.svg"></span>&nbsp15-30 mins<button
+                            class="addtocart">Add to Cart</button></p>
+                </div>
+            </div>
+
+            <div class="dashboard-card">
+                <img class="card-image" src="../Images/4.jpg">
+                <div class="card-details">
+                    <h4>Special Rice<span>Rs:380.00</span></h4>
+                    <p>Very delicious rice with vegitables & chicken or beef and other souce.</p>
+                    <p class="card-time"><img src="../Images/time-fill.svg"></span>&nbsp15-30 mins<button
+                            class="addtocart">Add to Cart</button></p>
+                </div>
+            </div>
+
+            <div class="dashboard-card">
+                <img class="card-image" src="../Images/5.jpg">
+                <div class="card-details">
+                    <h4>Choco-berry Pizza<span>Rs:990.00</span></h4>
+                    <p>Medium Pizza with Chocolate and red strawberry.</p>
+                    <p class="card-time"><img src="../Images/time-fill.svg"></span>&nbsp15-30 mins<button
+                            class="addtocart">Add to Cart</button></p>
+                </div>
+            </div>
+
+            <div class="dashboard-card">
+                <img class="card-image" src="../Images/6.jpg">
+                <div class="card-details">
+                    <h4>Cheese Kottu<span>RS:700.00</span></h4>
+                    <p>Made by a special receipi with shredded fine cheese.</p>
+                    <p class="card-time"><img src="../Images/time-fill.svg">&nbsp15-30 mins<button class="addtocart">Add
+                            to Cart</button></p>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+    <!--order-dashboard-->
+    <div class="dashboard-order">
+        <h3>Order Menu</h3>
+        <div class="order-address">
+            <p>Delevery Address</p>
+            <h4>550/ A/ King Street, Kandy</h4>
+        </div>
+        <div class="order-time">
+            <span class="clock"></span>35 mins&nbsp<img src="../Images/time-fill.svg">&nbsp&nbsp2KM&nbsp<img
+                src="../Images/map-pin-2-fill.svg">
+        </div><br>
+
+        <hr class="divider">
+        <div class="order-wrapper">
+            <div class="order-card">
+                <img class="order-image" src="../Images/12.jpg">
+                <div class="order-detail">
+                    <p>Hot korean ramen</p>
+                    X<i class="fas fa-time"></i> <input type="text" value="1">
+                </div>
+                <h4 class="order-price">Rs950.00</h4>
+            </div>
+            <div class="order-card">
+                <img class="order-image" src="../Images/7.jpg">
+                <div class="order-detail">
+                    <p>Chicken Kottu</p>
+                    X<i class="fas fa-time"></i> <input type="text" value="2">
+                </div>
+                <h4 class="order-price">Rs:570.00</h4>
+            </div>
+        </div>
+
+        <hr class="divider">
+        <div class="order-total">
+            <p>Subtotal-<span>&nbspRs:5500.00</span></p>
+            <p>Delivery Cost-<span>&nbspRs:400.00</span></p>
+
+            <div class="order-promo">
+                <input class="input-promo" type="text" placeholder="    Apply Voucher">
+                <button class="button-promo">Find Promo</button>
+            </div>
+            <hr class="divider">
+            <p>Total<span>&nbspRs:5900.00</span></p>
+        </div>
+        <button class="checkout" type="submit" value="clickme" onclick="openpopup()">
+            Checkout
+        </button>
+    </div>
+    <!---------------------popup------------------------->
+
+    <div class="popup" id="popup">
+        <img src="../Images/15.png">
+        <h2>Thank You!</h2>
+        <p>Your Order Has Been Placed. Thanks!</p>
+        <button type="button" onclick="closepopup()">OK</button>
+    </div>
+    <!---------------------popup------------------------->
+    <script src="../order-js/onlineorder.js"></script>
+    <footer>
+        <div class="col-1-flex">
+            <div class="col-1">
+                <h1>Contact us</h1>
+                <p>No 41, Ehelepola Kumarihami Mw, Bogambara, Kandy, Sri lanka</p>
+                <p><a href="" class="direction">GET DIRECTION</a></p>
+                <p><a href="tel:+94754462343" class="tel">075 446 2343</a></p>
+                <p></p>
+            </div>
+
+            <div class="col-1">
+                <h1>Opening Hours</h1>
+                <p>Everyday</p>
+                <p>10:00 am - 09:00 pm</p>
+            </div>
+        </div>
+
+        <div class="media">
+            <ul>
+                <li><a href="mailto:scooby@gmail.com"><img src="images/socialmedia/envelope.png" alt=""></a></li>
+                <li><a target="_blank" href="https://web.facebook.com/Scoobyscafekandy"><img
+                            src="images/socialmedia/fb@3x.png" alt=""></a></li>
+                <li><a target="_blank" href="https://www.instagram.com/scoobyscafe_kandy/"><img
+                            src="images/socialmedia/inst@3x.png" alt=""></a></li>
+            </ul>
+        </div>
+    </footer>
+</body>
+
+</html>

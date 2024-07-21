@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="login.css">
+    <link rel="stylesheet" href="formStyle.css">
+    <title>Scooby | Login</title>
+</head>
+<body>
+    <div class="boxA">
+        <div class="left">
+            <div class="container">
+                <form onsubmit="return validateForm()" action="another-page.html">
+                    <header>
+                        <h1>Login
+                    </header>
+                    </h1>
+                    <br>
+                    <div class="fsize">
+                        <div class="input-field">
+                            <input type="text" class="input" placeholder="Username" id="username" required>
+                            <i class="bx bx-user"></i>
+                        </div>
+                        <div class="input-field">
+                            <input type="Password" class="input" placeholder="Password" id="Password" required>
+                            <i class="bx bx-lock-alt"></i>
+                        </div>
+
+                        <div class="input-fieldlog">
+                            <input type="Submit" class="submit" value="Login" id="log">
+                        </div>
+                        <br>
+                        <div class="bottom">
+                            <div class="reset">
+                                <input type="reset" class="button" value="Reset">
+                            </div>
+                            <div class="pass">
+                                <a href="#">Forgot Password?</a>
+                            </div>
+                        </div>
+                        <br>
+                    </div>
+            </div>
+            </form>
+            <div class="backhome">
+                <a href="index.html">&#8630; Back to home page</a>
+            </div>
+        </div>
+        <div class="right">
+            <div class="imgcontainer">
+                <img src="images/logo/scoobylogoBlack.png" alt="logo" class="logo">
+                <br><br>
+                <div class="createacc">
+                    <button class="open-button" onclick="openForm()">Create an account</button>
+                </div>
+                <div class="form-popup" id="myForm">
+                    <form action="/action_page.php" class="form-container">
+                        <div class="topic">
+                            <h1>Create an account</h1>
+                        </div>
+                        <div class="text">
+                            <label for="name">Full Name</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            <input type="text" placeholder="Enter Name" name="name" required>
+                            <br>
+                            <label for="no">Phone Number</label>&nbsp;&nbsp;&nbsp;&nbsp;
+                            <input type="text" placeholder="Enter Number" name="no" required>
+                            <br>
+                            <label for="email">Email</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            <input type="text" placeholder="Enter Email" name="email" required>
+                            <br>
+                            <label for="psw">Password</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            <input type="password" placeholder="Enter Password" name="psw" required>
+                            <br>
+                            <label for="psw">Confirm Password</label>
+                            <input type="password" placeholder="Enter Password again" name="psw" required>
+                            <br><br>
+                        </div>
+                            <div class="cbox">
+                                <input type="checkbox" id="usern1" name="usern1" value="us1">
+                                <label for="usern1">use email as username</label>&nbsp;&nbsp;&nbsp;&nbsp;
+                                <input type="checkbox" id="usern2" name="usern2" value="us2">
+                                <label for="usern2">use phone no as username</label>
+                            </div>
+                        
+                        <br><br>
+                        <button type="submit" class="btn">Create Account</button>
+                        <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+                    </form>
+                </div>
+                <script>
+                    function openForm() {
+                        document.getElementById("myForm").style.display = "block";
+                    }
+
+                    function closeForm() {
+                        document.getElementById("myForm").style.display = "none";
+                    }
+                </script>
+                <br>
+                <div class="media">
+                    <a href="https://web.facebook.com/Scoobyscafekandy"><img src="images/socialmedia/fb@3x.png" alt=""></a>
+                    <a href="https://www.instagram.com/scoobyscafe_kandy/"><img src="images/socialmedia/inst@3x.png" alt=""></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

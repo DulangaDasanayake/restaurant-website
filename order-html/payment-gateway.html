@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../order-css/payment-gateway-styles.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>Online Order/Payment</title>
+</head>
+<body>
+    <div class="box">
+        <div class="container">
+            <div class="top-header">
+                <span>Have a Nice Day !</span>
+                <header>Card Payment</header>
+                
+            </div>
+
+            <div class="input-field">
+                <input type="text" class="input" placeholder="Card Number" required>
+                <i class='bx bxl-mastercard'></i>
+            </div>
+            <div class="input-field">
+                <input type="text" class="input" placeholder="Name" required>
+                <i class='bx bx-user'></i>
+            </div>
+            <div class="input-field">
+                <input type="text" class="input" placeholder="Expire Date" required>
+                <i class='bx bxs-calendar'></i>
+            </div>
+            <div class="input-field">
+                <input type="text" class="input" placeholder="CVV" required>
+                <i class='bx bx-lock-alt'></i>
+            </div>
+            
+            <img src="../Images/17.png">
+
+            <div class="input-field">
+                <button type="Submit" class="submit" onclick="openpopup()">Pay</button>
+            </div>
+
+            <div class="bottom">
+                <div class="left">
+                    <input type="checkbox" id="check">
+                    <label for="check">Save My Card</label>
+                </div>
+                <div class="right">
+                    <label><a href="../onlineorder.html">Back to Home</a></label>
+                </div>
+            </div>
+        </div>
+    </div>
+<!---------------------popup------------------------->
+
+<div class="popup" id="popup">
+    <img src="../Images/15.png">
+    <h2>Thank You!</h2>
+    <p>Your Order Has Been Placed. Thanks!</p>
+    <button type="button" onclick="closepopup()">OK</button>
+</div>
+
+<!---------------------popup------------------------->
+<script src="../order-js/onlineorder.js"></script>
+</body>
+</html>
